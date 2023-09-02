@@ -23,4 +23,4 @@ for index, todo in enumerate(todos): #for iteration on every single element of t
 
 st.text_input(label="Enter a to-do:", placeholder="Please enter a to-do...", on_change=todos_add, key="new_todo")
 
-st.session_state
+
